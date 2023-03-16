@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: auto;
+}
+
+header{
+    min-width: 100%;
+    height: 40px;
+    background-color: #555;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 100px;
+    color: wheat;
+    position: fixed;
+    margin-bottom: 100px;
+}
+
+.fa{
+    margin-top: 5px;
+}
+
+.al{
+    text-decoration: underline rgba(0, 166, 255, 0.39);
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    margin-top: 40px;
+    position: fixed;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    margin-bottom: 100px;
+
+}
+
+h3{
+    background-color:  rgba(0, 166, 255, 0.39);
+    min-width: 150px;
+    height: 40px;
+    padding-top: 10px;
+    position: static;
+    text-align: center;
+    border-radius: 10px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    min-height: 100px;
+    height: auto;
+    min-width: 300px;
+    width: 40%;
+    border: 1px solid;
+    box-shadow: #555;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: medium;
+    gap: 15px;
+}
+
+.arabic{
+    color:  rgb(0, 166, 255);
+    font-weight: bold;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 100%;
+    height: 80px;
+    padding-top: 5px;
+    background-color: #555;
+}
+
+audio{
+    height: 20px;
+    width: 40%;
+    min-width: 300px;
+}
